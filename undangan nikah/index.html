@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Online - [Nofi] & [farel]</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <audio id="background-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="landing-page" id="landingPage">
+        <div class="landing-content">
+            <div class="ornament top-left"></div>
+            <div class="ornament bottom-right"></div>
+            <h1 class="landing-title">THE WEDDING OF</h1>
+            <h2 class="bride-groom-names">Novi & farel</h2>
+            <p class="landing-date">Sabtu, 22 November 2032</p>
+            <p class="landing-location">Pekalongan</p>
+            <button id="openInvitationBtn" class="btn-open">buka Undangan</button>
+        </div>
+    </div>
+
+    <div class="main-content" id="mainContent" style="display: none;">
+
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="initials">N & F</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#event-details">Acara</a></li>
+                <li><a href="#our-story">Kisah Kami</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+                <li><a href="#gifts">Hadiah</a></li>
+                <li><a class="nav-music-toggle" id="musicToggleBtn"><i class="fas fa-volume-up"></i></a></li>
+            </ul>
+        </nav>
+
+        <section id="welcome" class="section welcome-section">
+            <div class="section-container">
+                <h2 class="section-title">Dengan Cinta & Harapan</h2>
+                <div class="text-block">
+                    <p>Maha Suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.<br>Ya Allah, perkenankanlah kami merajut cinta suci-Mu dalam ikatan pernikahan yang Engkau ridhai.</p>
+                </div>
+                <div class="names-parents">
+                    <div class="person">
+                        <h3>Novi</h3>
+                        <p>Putri Pertama dari Bapak yanto & Ibu sumarni</p>
+                    </div>
+                    <span class="ampersand">&</span>
+                    <div class="person">
+                        <h3>farel</h3>
+                        <p>Putra Kedua dari Bapak mbuh & Ibu mbuh</p>
+                    </div>
+                </div>
+                <div class="countdown" id="countdown">
+                    </div>
+                <p class="invitation-text">Dengan penuh rasa syukur dan suka cita, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu pada pernikahan kami.</p>
+            </div>
+        </section>
+
+        <section id="event-details" class="section event-details-section">
+            <div class="section-container">
+                <h2 class="section-title">Detail Acara</h2>
+
+                <div class="event-card">
+                    <h3>Akad Nikah</h3>
+                    <p><i class="fas fa-calendar-alt"></i> Sabtu, 22 November 2025</p>
+                    <p><i class="fas fa-clock"></i> 09:00 WIB - Selesai</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Gedung Serbaguna Puri Indah<br>Jl. Raya Puri Indah No. 10, Pekalongan Barat</p>
+                    <a href="https://maps.app.goo.gl/example-akad" target="_blank" class="btn-map">Lihat di Google Maps</a>
+                </div>
+
+                <div class="event-card">
+                    <h3>Resepsi Pernikahan</h3>
+                    <p><i class="fas fa-calendar-alt"></i> Sabtu, 22 November 2025</p>
+                    <p><i class="fas fa-clock"></i> Sesi 1: 11:00 - 13:00 WIB</p>
+                    <p><i class="fas fa-clock"></i> Sesi 2: 14:00 - 16:00 WIB</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Gedung Serbaguna Puri Indah<br>Jl. Raya Puri Indah No. 10, Jakarta Barat</p>
+                    <a href="https://maps.app.goo.gl/example-resepsi" target="_blank" class="btn-map">Lihat di Google Maps</a>
+                </div>
+
+                <div class="text-block note">
+                    <p>"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir." (QS. Ar-Rum: 21)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-story" class="section our-story-section">
+            <div class="section-container">
+                <h2 class="section-title">Kisah Cinta Kami</h2>
+                <div class="timeline">
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>Pertemuan Pertama</h4>
+                            <p class="timeline-date">Juni 2020</p>
+                            <p>Berawal dari pertemuan tak sengaja di sebuah acara kampus...</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h4>Awal Kisah</h4>
+                            <p class="timeline-date">Agustus 2020</p>
+                            <p>Perasaan mulai tumbuh seiring waktu, dan kami memutuskan untuk memulai hubungan...</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>Lamaran</h4>
+                            <p class="timeline-date">Maret 2024</p>
+                            <p>Dengan restu keluarga, kami melangkah ke jenjang yang lebih serius...</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h4>Menuju Pernikahan</h4>
+                            <p class="timeline-date">Hari Ini!</p>
+                            <p>Dan kini, kami siap mengukir babak baru dalam perjalanan cinta kami...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery-section">
+            <div class="section-container">
+                <h2 class="section-title">Galeri Kebahagiaan</h2>
+                <div class="photo-grid">
+                    <img src="images/photo1.jpg" alt="Prewedding Photo 1">
+                    <img src="images/photo2.jpg" alt="Prewedding Photo 2">
+                    <img src="images/photo3.jpg" alt="Prewedding Photo 3">
+                    <img src="images/photo4.jpg" alt="Prewedding Photo 4">
+                    <img src="images/photo5.jpg" alt="Prewedding Photo 5">
+                    <img src="images/photo6.jpg" alt="Prewedding Photo 6">
+                </div>
+            </div>
+        </section>
+
+        <section id="rsvp" class="section rsvp-section">
+            <div class="section-container">
+                <h2 class="section-title">Konfirmasi Kehadiran</h2>
+                <p class="rsvp-intro">Mohon konfirmasi kehadiran Anda agar kami dapat mempersiapkan acara dengan lebih baik.</p>
+                <form id="rsvpForm">
+                    <div class="form-group">
+                        <label for="guestName">Nama Lengkap</label>
+                        <input type="text" id="guestName" name="guestName" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Apakah Anda akan hadir?</label>
+                        <div class="radio-group">
+                            <input type="radio" id="attendYes" name="attendance" value="Ya, saya akan hadir" required>
+                            <label for="attendYes">Ya, saya akan hadir</label>
+                            <input type="radio" id="attendNo" name="attendance" value="Maaf, tidak bisa hadir">
+                            <label for="attendNo">Maaf, tidak bisa hadir</label>
+                        </div>
+                    </div>
+                    <div class="form-group" id="numGuestsGroup" style="display: none;">
+                        <label for="numGuests">Jumlah Tamu yang Hadir (termasuk Anda)</label>
+                        <input type="number" id="numGuests" name="numGuests" min="1" value="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Ucapan & Doa</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tulis ucapan dan doa Anda di sini..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Kirim Konfirmasi</button>
+                </form>
+                <div id="rsvpMessage" class="rsvp-message"></div>
+
+                <div class="guestbook-display">
+                    <h3>Ucapan dan Doa Tamu</h3>
+                    <div id="guestbookList" class="guestbook-list">
+                        <div class="guestbook-item">
+                            <p class="gb-name">Anonim</p>
+                            <p class="gb-message">Selamat menempuh hidup baru! Semoga samawa selalu.</p>
+                        </div>
+                        <div class="guestbook-item">
+                            <p class="gb-name">Keluarga </p>
+                            <p class="gb-message">Selamat farel & nofi! Semoga pernikahan kalian penuh berkah.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gifts" class="section gifts-section">
+            <div class="section-container">
+                <h2 class="section-title">Kirim Kado / Amplop Digital</h2>
+                <p class="gift-text">Doa restu dari Bapak/Ibu/Saudara/i adalah hadiah terindah bagi kami. Namun, jika Anda ingin memberikan tanda kasih, dapat disalurkan melalui:</p>
+
+                <div class="bank-info">
+                    <h4>Transfer Bank</h4>
+                    <p><strong>Bank:</strong> BCA</p>
+                    <p><strong>Nomor Rekening:</strong> <span id="norek-bca">1234567890</span></p>
+                    <p><strong>Atas Nama:</strong>  nofi</p>
+                    <button class="btn-copy" data-target="norek-bca">Salin No. Rekening</button>
+                </div>
+
+                <div class="bank-info">
+                    <h4>Transfer Bank</h4>
+                    <p><strong>Bank:</strong> Mandiri</p>
+                    <p><strong>Nomor Rekening:</strong> <span id="norek-mandiri">0987654321</span></p>
+                    <p><strong>Atas Nama:</strong> farel</p>
+                    <button class="btn-copy" data-target="norek-mandiri">Salin No. Rekening</button>
+                </div>
+
+                <p class="gift-text">Jika Anda ingin mengirimkan kado fisik, silakan hubungi [Nama Kontak] di [Nomor Telepon] untuk informasi alamat pengiriman.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="section-container">
+                <p>&copy; 2030 farel & nofi. All Rights Reserved.</p>
+                <p>Created with ❤️</p>
+            </div>
+        </footer>
+
+    </div> <script src="script.js"></script>
+</body>
+</html>
